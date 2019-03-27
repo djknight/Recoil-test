@@ -1,0 +1,79 @@
+    body,
+    html {
+        width: 100%;
+        height: 100%;
+    }
+    
+    body {
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    hr {
+        max-width: 65px;
+        border-width: 3px;
+        border-color: cyan;
+    }
+    
+    .faded {
+        color: rgba(255, 255, 255, 0.8);
+    }
+    
+    header.startup {
+        background-position: center;
+        background-image: url("recoil.png");
+        background-size: cover;
+        height: 100%;
+    }
+    
+    header.startup hr {
+        margin-top: 200px;
+        margin-bottom: 30px;
+    }
+    
+    header.startup h1 {
+        font-size: 3rem;
+    }
+    
+    .btn {
+        font-weight: 700;
+        text-transform: uppercase;
+        border-radius: 300px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .btn-xl {
+        padding: 1rem 2rem;
+    }
+    
+    .btn-primary {
+        background-color: rgba(0, 0, 0, 0.521);
+        border-color: crgba(0, 0, 0, 0.521);
+    }
+    
+    .btn-primary:hover {
+        background-color: rgba(0, 0, 0, 0.521);
+        ;
+        border-color: rgba(0, 0, 0, 0.521);
+        ;
+        border-width: 5px;
+        cursor: pointer;
+    }
+    
+    .box {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border-radius: 300px;
+        background-color: rgba(0, 0, 0, 0.521);
+        /* border-radius: 5px; */
+        /* font-family: sans-serif;
+        text-align: center;
+        line-height: 1PX;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px); */
+        border-width: 5px;
+        border-color: cyan;
+        /* min-block-size: 30px;
+        margin: 10px; */
+        padding: 1rem 2rem;
+    }
