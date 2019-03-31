@@ -63,9 +63,9 @@
         border-radius: 300px;
         background-color: rgba(0, 0, 0, 0.521);
         padding: 1rem 2rem;
-        /* -webkit-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
-        box-sizing: border-box; */
+        /* box-sizing: border-box; */
     }
     
     .mc_embed_signup {
